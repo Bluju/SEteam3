@@ -63,6 +63,8 @@ public static void cubes(int n){
       System.out.println("Hellooo!");
       Thread.sleep(1000);
       System.out.println("That's you! That's how dumb you sound.");
+      Thread.sleep(1000);
+      System.out.println("On to the next test.");
       }
       catch (InterruptedException e) {
 
