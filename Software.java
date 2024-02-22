@@ -22,7 +22,9 @@ public static void cubes(int n){
     henryFunction();
     sarahFunction();
     cubes(5);
+    hello();
     ethanFunc(); 
+
   }
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
@@ -53,12 +55,24 @@ public static void cubes(int n){
     }
   }
 
+ public static void hello() {
+      try {
 
+      System.out.println("Don't Believe Me? Here I'll put you on:");
+      Thread.sleep(1000);
+      System.out.println("Hellooo!");
+      Thread.sleep(1000);
+      System.out.println("That's you! That's how dumb you sound.");
+      }
+      catch (InterruptedException e) {
+
+      }
+  }
 
   public static void sarahFunction()
   {
     System.out.print("This is Sarah's function"); 
   }
-    
 
 }
+ 
