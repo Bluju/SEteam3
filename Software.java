@@ -17,6 +17,7 @@ public static void cubes(int n){
   }
 
   public static void main(String[] args){
+    wesleyFunc();
     julianFunc();
     waste_time(10);
     henryFunction();
@@ -26,6 +27,11 @@ public static void cubes(int n){
     ethanFunc(); 
 
   }
+
+  public static void wesleyFunc(){
+    System.out.println("This is Wesley's Functions!");
+  }
+
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
   }
