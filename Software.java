@@ -91,9 +91,11 @@ public static void cubes(int n){
 
       System.out.println("Don't Believe Me? Here I'll put you on:");
       Thread.sleep(1000);
-      System.out.println("Hellooo!");
+      System.out.println("Helloo!");
       Thread.sleep(1000);
       System.out.println("That's you! That's how dumb you sound.");
+      Thread.sleep(1000);
+      System.out.println("On to the next test.");
       }
       catch (InterruptedException e) {
 
