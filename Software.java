@@ -13,7 +13,7 @@ public static void cubes(int n){
  }
 
   void henryFunction(){
-    system.out.println("Henry's branch");
+    System.out.println("Henry's branch");
   }
 
   public static void main(String[] args){
