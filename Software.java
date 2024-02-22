@@ -5,4 +5,8 @@ public class Software{
 
 
   }
+
+  public static void ethanFunc() {
+    System.out.println( "Called Ethan's function!" )
+  }
 }
