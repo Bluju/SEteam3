@@ -1,25 +1,64 @@
 
 public class Software{
 
+
+
+  public static void ethanFunc() {
+    System.out.println( "Called Ethan's function!" );
+  }
+
+
 public static void cubes(int n){
     for(int i=1;i<=n;i++){
        System.out.println((int)Math.pow(i,3));
  }
 
   void henryFunction(){
-    system.out.println("Henry's branch");
+    System.out.println("Henry's branch");
   }
 
+
   public static void main(String[] args){
+    wesleyFunc();
     julianFunc();
     waste_time(10);
     henryFunction();
     sarahFunction();
     cubes(5);
+    mattFunc(); 
+    hello();
+    ethanFunc(); 
+    sayHi();
+
   }
+  
+  public static void cubes(int n){
+    for(int i=1;i<=n;i++){
+       System.out.println((int)Math.pow(i,3));
+ }
+ 
+  public static void mattFunc(){
+      System.out.println("This is Matt's new function.");
+}
+  
+  void henryFunction(){
+    system.out.println("Henry's branch");
+ }
+
+
+
+  }
+
+  public static void wesleyFunc(){
+    System.out.println("This is Wesley's Functions!");
+  }
+
+
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
   }
+
+  
 
   /**
    * Wastes the user's time and prints a friendly message.
@@ -45,10 +84,27 @@ public static void cubes(int n){
       System.out.println("Someone has interrupted our time-wasting! How rude!");
     }
   }
+  public static void sayHi() {
+    System.out.println("Hiiiii");
+ public static void hello() {
+      try {
+
+      System.out.println("Don't Believe Me? Here I'll put you on:");
+      Thread.sleep(1000);
+      System.out.println("Hellooo!");
+      Thread.sleep(1000);
+      System.out.println("That's you! That's how dumb you sound.");
+      }
+      catch (InterruptedException e) {
+
+      }
+  }
+
   public static void sarahFunction()
   {
     System.out.print("This is Sarah's function"); 
       System.out.print("Hello world");
   }
-    
+
 }
+ 
