@@ -28,6 +28,8 @@ public static void cubes(int n){
     mattFunc(); 
     hello();
     ethanFunc(); 
+    sayHi();
+
   }
   
   public static void cubes(int n){
@@ -56,6 +58,8 @@ public static void cubes(int n){
     System.out.println("This is Julian's Function!");
   }
 
+  
+
   /**
    * Wastes the user's time and prints a friendly message.
    *
@@ -80,7 +84,8 @@ public static void cubes(int n){
       System.out.println("Someone has interrupted our time-wasting! How rude!");
     }
   }
-
+  public static void sayHi() {
+    System.out.println("Hiiiii");
  public static void hello() {
       try {
 
@@ -98,6 +103,7 @@ public static void cubes(int n){
   public static void sarahFunction()
   {
     System.out.print("This is Sarah's function"); 
+
   }
 
 }
