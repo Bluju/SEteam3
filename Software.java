@@ -1,4 +1,4 @@
-public class JoeFunction {
+public class Software {
     // prints the cubes of the ints from 1 up to and including n
     public static void cubes(int n){
         for(int i=1;i<=n;i++){
