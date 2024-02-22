@@ -103,7 +103,7 @@ public static void cubes(int n){
   public static void sarahFunction()
   {
     System.out.print("This is Sarah's function"); 
-
+      System.out.print("Hello world");
   }
 
 }
