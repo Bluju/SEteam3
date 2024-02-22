@@ -22,7 +22,7 @@ public static void cubes(int n){
     henryFunction();
     sarahFunction();
     cubes(5);
-    ethanFunc(); 
+    ethanFunc();
   }
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
@@ -37,28 +37,29 @@ public static void cubes(int n){
   public static void waste_time(int seconds)
   {
     System.out.println("Thank you for choosing to waste your time with me.");
-    try
+    for (int i = 0; i < seconds; i++)
     {
-      for (int i = 0; i < seconds; i++)
+      try
       {
         Thread.sleep(500);
         System.out.print(".");
         Thread.sleep(500);
       }
+      catch (InterruptedException e)
+      {
+        System.out.println("Someone has interrupted our time-wasting! How rude!");
+      }
       System.out.println("\nI hope this has been a good waste of time.");
     }
-    catch (InterruptedException e)
-    {
-      System.out.println("Someone has interrupted our time-wasting! How rude!");
-    }
+
   }
 
 
 
   public static void sarahFunction()
   {
-    System.out.print("This is Sarah's function"); 
+    System.out.print("This is Sarah's function");
   }
-    
+
 
 }
