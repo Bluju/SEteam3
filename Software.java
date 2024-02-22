@@ -7,9 +7,9 @@ public class Software{
   }
 
 
-public static void cubes(int n){
+public static void squares(int n){
     for(int i=1;i<=n;i++){
-       System.out.println((int)Math.pow(i,3));
+       System.out.println((int)Math.pow(i,2));
  }
 
   void henryFunction(){
@@ -21,7 +21,7 @@ public static void cubes(int n){
     waste_time(10);
     henryFunction();
     sarahFunction();
-    cubes(5);
+    squares(5);
     ethanFunc(); 
   }
   public static void julianFunc(){
