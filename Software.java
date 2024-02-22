@@ -4,10 +4,11 @@ public class Software{
 public static void cubes(int n){
     for(int i=1;i<=n;i++){
        System.out.println((int)Math.pow(i,3));
+    }
  }
 
-  void henryFunction(){
-    system.out.println("Henry's branch");
+  public static void henryFunction(){
+    System.out.println("Henry's branch");
   }
 
   public static void main(String[] args){
@@ -16,6 +17,13 @@ public static void cubes(int n){
     henryFunction();
     sarahFunction();
     cubes(5);
+    wesleyFunc();
+  }
+
+  public static void wesleyFunc(){
+    System.out.println("Wesleys Functon.");
+
+    
   }
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
@@ -49,5 +57,6 @@ public static void cubes(int n){
   {
     System.out.print("This is Sarah's function"); 
   }
+  
     
 }
