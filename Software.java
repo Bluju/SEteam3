@@ -2,9 +2,11 @@ public class Software{
 
 
   public static void main(String[] args){
-
+    julianFunc();
     waste_time(10);
-
+  }
+  public static void julianFunc(){
+    System.out.println("This is Julian's Function!");
   }
 
   /**
