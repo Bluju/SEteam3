@@ -1,6 +1,12 @@
 
 public class Software{
 
+
+  public static void ethanFunc() {
+    System.out.println( "Called Ethan's function!" );
+  }
+
+
 public static void cubes(int n){
     for(int i=1;i<=n;i++){
        System.out.println((int)Math.pow(i,3));
@@ -16,6 +22,7 @@ public static void cubes(int n){
     henryFunction();
     sarahFunction();
     cubes(5);
+    ethanFunc(); 
   }
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
@@ -45,9 +52,13 @@ public static void cubes(int n){
       System.out.println("Someone has interrupted our time-wasting! How rude!");
     }
   }
+
+
+
   public static void sarahFunction()
   {
     System.out.print("This is Sarah's function"); 
   }
     
+
 }
