@@ -36,7 +36,7 @@ public static void cubes(int n){
  }
  
   public static void mattFunc(){
-      System.out.println("Good afternoon.");
+      System.out.println("This is Matt's new function.");
 }
   
   void henryFunction(){
