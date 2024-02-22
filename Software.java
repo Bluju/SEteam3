@@ -1,4 +1,10 @@
+
 public class Software{
+
+public static void cubes(int n){
+    for(int i=1;i<=n;i++){
+       System.out.println((int)Math.pow(i,3));
+ }
 
   void henryFunction(){
     system.out.println("Henry's branch");
@@ -9,6 +15,7 @@ public class Software{
     waste_time(10);
     henryFunction();
     sarahFunction();
+    cubes(5);
   }
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
