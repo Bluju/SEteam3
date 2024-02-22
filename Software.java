@@ -20,8 +20,9 @@ public static void cubes(int n){
     julianFunc();
     waste_time(10);
     henryFunction();
+    sarahFunction();
     cubes(5);
-   ethanFunc(); 
+    ethanFunc(); 
   }
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
@@ -51,5 +52,13 @@ public static void cubes(int n){
       System.out.println("Someone has interrupted our time-wasting! How rude!");
     }
   }
+
+
+
+  public static void sarahFunction()
+  {
+    System.out.print("This is Sarah's function"); 
+  }
+    
 
 }
