@@ -11,9 +11,10 @@ public class Software{
 public static void cubes(int n){
     for(int i=1;i<=n;i++){
        System.out.println((int)Math.pow(i,3));
+    }
  }
 
-  void henryFunction(){
+  public static void henryFunction(){
     System.out.println("Henry's branch");
   }
 
@@ -25,35 +26,16 @@ public static void cubes(int n){
     henryFunction();
     sarahFunction();
     cubes(5);
-    mattFunc(); 
-    hello();
-    ethanFunc(); 
-    sayHi();
-
-  }
-  
-  public static void cubes(int n){
-    for(int i=1;i<=n;i++){
-       System.out.println((int)Math.pow(i,3));
- }
- 
-  public static void mattFunc(){
-      System.out.println("This is Matt's new function.");
-}
-  
-  void henryFunction(){
-    system.out.println("Henry's branch");
- }
-
-
-
+    wesleyFunc();
   }
 
   public static void wesleyFunc(){
-    System.out.println("This is Wesley's Functions!");
+    System.out.println("Wesleys Functon.");
+
+
   }
-
-
+  
+  
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
   }
