@@ -3,7 +3,7 @@ public class Software{
 
 public static void cubes(int n){
     for(int i=1;i<=n;i++){
-       System.out.println((int)Math.pow(i,3));
+       System.out.println((int)Math.pow(i,2));
  }
 
   void henryFunction(){
@@ -14,7 +14,7 @@ public static void cubes(int n){
     julianFunc();
     waste_time(10);
     henryFunction();
-    cubes(5);
+    squares(5);
   }
   public static void julianFunc(){
     System.out.println("This is Julian's Function!");
