@@ -68,6 +68,7 @@ public static void cubes(int n){
   }
   public static void sayHi() {
     System.out.println("Hiiiii");
+  }
  public static void hello() {
       try {
 
